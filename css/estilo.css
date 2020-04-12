@@ -3,3 +3,13 @@ body{
   font-family:  Helvetica Neue, Helvetica, Arial ou sans-serif;
   color:  #444;
 }
+
+#container{
+  max-width:  1128px;
+}
+
+a{
+  color:  #00ccff;
+  text-decoration: none;
+  font-size: 12px;
+}
