@@ -4,8 +4,10 @@ body{
   color: #444;
 }
 
+/*Aqui foi alterado para max-width, ou seja a largura máxima que o elemento
+pode chegar.*/
 #container{
-  width: 1128px;
+  max-width: 1128px;
 }
 
 a{
@@ -22,9 +24,12 @@ a:hover{
   text-decoration: underline;
 }
 
+/*Aqui foi alterado para max-width, ou seja a largura máxima que o elemento
+pode chegar.*/
 img{
-  width: 100%;
+  max-width: 100%;
 }
+
 
 .cabeçalho{
   width: 100%;
@@ -41,16 +46,23 @@ img{
   float: right;
 }
 
+/*Esta declaração não foi compreendida!
+Pois se você declarou a UL como class=menu, não entendi porque
+ usou ul li?
+ Já que declarou porque não fez como acima, .menu li{}?*/
 ul li{
   float: right;
   display: inline;
   font-size: 14px;
   margin-left: 24px;
   margin-top: 12px;
-  text-decoration: none;
+/*A propriedade para retirar o estilo da lista é
+ list-style:none e não text-decoration: none;
+*/
+list-style:none;
 }
 
-ul li a{
+.menu a{
   font-size: 20px;
   color: #999;
 }
@@ -101,6 +113,12 @@ h1{
   font-size: 18px;
 }
 
-footer.rodape a{
+/*
+Este tipo de declaração não é usual
+pois a classe precede os elementos!
+Sempre crie de forma que a classe seja a
+ precedente dos elementos.
+*/
+.rodape a{
   font-size: 15px;
 }
