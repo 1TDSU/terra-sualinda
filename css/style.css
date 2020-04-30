@@ -41,7 +41,7 @@ img{
   float: right;
 }
 
-li{
+.menu ul li{
   float: right;
   display: inline;
   font-size: 14px;
@@ -50,7 +50,7 @@ li{
   list-style: none;
 }
 
-li a{
+.menu ul li a{
   font-size: 20px;
   color: #999;
 }
@@ -65,7 +65,7 @@ li a{
   width: 480px;
   padding: 30px 48px 30px 48px;
   position: absolute;
-  top: 180px;
+  top:55px;
   background-color: rgba(0,0,0,0.6);
 }
 
@@ -74,7 +74,7 @@ li a{
   color: #fff;
 }
 
-h1{
+.box h1{
   margin-top: 0;
   margin-bottom: 0;
   font-size: 48px;
